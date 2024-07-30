@@ -50,9 +50,7 @@ class _NoticeMoreState extends State<NoticeMore> {
                               description: snapshot.data![index].description,
                               time: snapshot.data![index].time,
                             );
-                          } else {
-                            return Container();
-                          }
+                          } 
                         });
                       }
                       return Container();
